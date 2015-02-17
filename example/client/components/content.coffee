@@ -15,4 +15,6 @@ Template.content.css ->
       color:            => @style('content.textColor')
       backgroundColor:  => @style('content.backgroundColor')
       paddingpx:        => @style('content.padding')
+      overflowY:          'scroll'
+      overflowX:          'hidden'
 

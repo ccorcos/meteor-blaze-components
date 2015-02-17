@@ -8,6 +8,7 @@ Template.nav.styles
 
 Template.nav.css ->
   navCSS = css '.nav'
+    .boxSizing        'border-box'
     .fp()
     .textOverflow     'ellipsis'
     .height         => @style('nav.height')
@@ -17,7 +18,6 @@ Template.nav.css ->
     .textAlign         'center'
     .color          => @style('nav.textColor')
     .bg             => @style('nav.backgroundColor')
-
 
   leftCSS = navCSS.child('.left')
     .position     'absolute'

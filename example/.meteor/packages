@@ -15,3 +15,4 @@ reactive-dict
 ccorcos:reactive-css
 ccorcos:blaze-components
 ccorcos:tracker-streams
+velocityjs:velocityjs
