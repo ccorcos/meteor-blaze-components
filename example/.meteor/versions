@@ -18,7 +18,6 @@ deps@1.0.6
 ejson@1.0.5
 fastclick@1.0.2
 follower-livedata@1.0.3
-fourseven:scss@2.0.0
 geojson-utils@1.0.2
 html-tools@1.0.3
 htmljs@1.0.3
@@ -32,7 +31,6 @@ livedata@1.0.12
 logging@1.0.6
 meteor@1.1.4
 meteor-platform@1.2.1
-meteoric:ionicons-sass@0.1.6
 minifiers@1.1.3
 minimongo@1.0.6
 mobile-status-bar@1.0.2
