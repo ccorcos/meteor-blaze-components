@@ -1,8 +1,8 @@
 Package.describe({
   name: 'ccorcos:blaze-components',
-  // summary: 'Page transitions integrated with Iron Router.',
+  summary: 'A Meteor package for creating Blaze components.',
   version: '0.0.1',
-  // git: 'https://github.com/ccorcos/meteor-transitioner'
+  git: 'https://github.com/ccorcos/meteor-blaze-components'
 });
 
 Package.onUse(function(api) {

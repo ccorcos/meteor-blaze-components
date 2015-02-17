@@ -1,6 +1,8 @@
 # Blaze Components
 
-This package expores a way of making components with blaze. Its highly a work in progress.
+This package expores a way of making components with blaze. Its highly a work in progress. In fact its really just brainstorming.
+
+[Check out the example code](/example/client) and [see it working here](http://ccorcos-blaze-components.meteor.com)
 
 ## Getting Started
 
