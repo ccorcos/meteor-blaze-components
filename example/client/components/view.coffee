@@ -1,0 +1,1 @@
+Template.view.css -> css('.view').fullPage()
