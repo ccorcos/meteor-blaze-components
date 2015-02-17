@@ -13,10 +13,6 @@ Blaze.TemplateInstance.prototype.getParentNamed = (name) ->
 
   return template
 
-Blaze.TemplateInstance.prototype.trigger = (name) -> triggerEventHelper(name, this, null)
-
-@trigger = (name) -> (e,t) -> triggerEventHelper(name, t, e)
-
 triggerEventHelper = (name, template, event) ->
   while template
     if template.view.template.__eventMaps
@@ -31,6 +27,10 @@ triggerEventHelper = (name, template, event) ->
 
     template = view.templateInstance?()
 
+Blaze.TemplateInstance.prototype.trigger = (name, args...) -> triggerEventHelper(name, this, args)
+
+# Lets avoid globals for now.
+# @trigger = (name) -> (e,t) -> triggerEventHelper(name, t, e)
 
 Template.prototype.css = (value) ->
   if _.isFunction(value)

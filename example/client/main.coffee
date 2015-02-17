@@ -10,9 +10,5 @@ Template.main.styles
   'content.backgroundColor': 'white'
 
 Template.main.events
-  'nav.left': (e,t) ->
-    console.log "left!"
-
-Template.main.events
-  'nav.right': (e,t) ->
-    console.log "right!"
+  'nav.left': (e,t) -> console.log "left!"
+  'nav.right': (e,t) -> console.log "right!"

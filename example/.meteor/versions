@@ -9,7 +9,8 @@ blaze-tools@1.0.2
 boilerplate-generator@1.0.2
 callback-hook@1.0.2
 ccorcos:blaze-components@0.0.1
-ccorcos:reactive-css@1.0.4
+ccorcos:reactive-css@1.0.5
+ccorcos:tracker-streams@2.0.0
 check@1.0.4
 coffeescript@1.0.5
 ddp@1.0.14

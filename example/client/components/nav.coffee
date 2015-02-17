@@ -36,8 +36,8 @@ Template.nav.css ->
   return [navCSS, rightCSS, leftCSS]
 
 Template.nav.events
-  'click .left': trigger('nav.left')
-  'click .right': trigger('nav.right')
+  'click .left':  (e,t) -> t.trigger('nav.left')
+  'click .right': (e,t) -> t.trigger('nav.right')
 
 
 
