@@ -4,7 +4,7 @@ This package expores a way of making components with blaze. Its highly a work in
 
 ## Getting Started
 
-Clone this package into your `packages/` directory of your meteor project and then run `meteor add ccorcos:blaze-components`. 
+Clone this package into your `packages/` directory of your meteor project and then run `meteor add ccorcos:blaze-components`. If you want to run the demo, then you can symlink the package with `ln -s /path/to/ccorcos:blaze-components /path/to/ccorcos:blaze-components/example/packages`.
 
 ### Styling
 

@@ -11,8 +11,8 @@ Package.onUse(function(api) {
   api.use([
     'coffeescript',
     'templating',
-    'aldeed:template-extension',
-    'ccorcos:reactive-css'
+    'aldeed:template-extension@3.4.1',
+    'ccorcos:reactive-css@1.0.5'
   ], 'client');
 
   api.addFiles([
