@@ -26,3 +26,4 @@ Template.main.styles
 Template.main.events
   'nav.left': (e,t) -> console.log "left!"
   'nav.right': (e,t) -> console.log "right!"
+  'menu.item': (elem) -> console.log "menu item", elem

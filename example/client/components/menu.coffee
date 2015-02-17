@@ -50,6 +50,9 @@ Template.menu.css ->
 
   return [menuCSS, handleCSS, itemCSS]
 
+Template.menu.events
+  'click .item': (e,t) -> t.trigger('menu.item', e.target)
+
 strangle = (x, maxMin) ->
   x = Math.max(x, maxMin[0])
   x = Math.min(x , maxMin[1])

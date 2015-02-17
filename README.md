@@ -75,9 +75,19 @@ Template.main.events
   'nav.right': (e,t) -> console.log "right!"
 ```
 
-## To Do
-- push menu
+## To Do / Quirks
 - is it possible to use inline styles?
+
+    Right now, the styles aren't strictly scoped to the template. This could be accomplished with inline styles. This would be doable if we could use Template.find, but we can't in Template.created and it wouldn't make much sense to do it in Template.rendered.
+
 - what if we want to pass events to children to siblings?
+
+    I could imagine this would be quite useful in certain places. For example, tapping the content view should close the menu. Opening the menu should disable the content and perhaps add an overlay. It would be convenient if these two components could respond to each other and manages their concerns separately.
+
 - it would be great if components could have multiple UI blocks for creating layouts.
+
+    What if a component has multiple subcomponents? For example, a header-content-footer view would make a lot of sense to be self-contained. Right now we have to create 3 different views and coordinate their styles through their parant template. I'm not sure this makes a lot of sense for more complicated layouts and components.
+
 - is there some way to stop all autoruns from the ReactiveDict when the template id destroyed?
+
+    I'm just not sure if ReactiveDicts need cleanup. Right now they are not.
